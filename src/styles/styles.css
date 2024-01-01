@@ -1,0 +1,853 @@
+#header {
+  margin-bottom: 40px;
+}
+#header .headerTop {
+  height: 60px;
+}
+#header .headerTop .headerTopMain {
+  width: 80%;
+  line-height: 60px;
+  margin: 0 auto;
+}
+#header .headerTop .headerTopMain:after {
+  clear: both;
+  display: block;
+  content: "";
+}
+#header .headerTop .headerTopMain .left h5 {
+  float: left;
+  margin-right: 5px;
+}
+#header .headerTop .headerTopMain .left nav {
+  float: left;
+}
+#header .headerTop .headerTopMain .left nav a {
+  margin-left: 15px;
+  font-size: 14px;
+  padding: 6px;
+  border: 1px solid rgb(255, 115, 0);
+  color: rgb(255, 115, 0);
+  border-radius: 8px;
+  transition: all 0.3s ease;
+}
+#header .headerTop .headerTopMain .left nav a:hover {
+  background-color: #eaeaea;
+  border: none;
+}
+#header .headerTop .headerTopMain .left nav .logoutBtn {
+  margin-top: 20px;
+  width: 60px;
+  height: 20px;
+  background-color: black;
+  border: none;
+  border-radius: 3px;
+  color: rgb(230, 228, 228);
+  font-size: 12px;
+  align-self: flex-start;
+  margin-top: 20px;
+  margin-left: 40px;
+}
+#header .headerTop .headerTopMain .left nav .logoutBtn:hover {
+  background-color: rgb(255, 115, 0);
+}
+#header .headerTop .headerTopMain .right {
+  float: right;
+  display: flex;
+}
+#header .headerTop .headerTopMain .right nav {
+  font-size: 0;
+  margin-right: 30px;
+}
+#header .headerTop .headerTopMain .right nav a {
+  border-right: 1px solid #979595;
+  margin-right: 15px;
+  padding-right: 15px;
+  padding-left: 15px;
+  font-size: 14px;
+  transition: all 0.3s ease;
+  font-size: 16px;
+}
+#header .headerTop .headerTopMain .right nav a:last-child {
+  border: none;
+  padding-right: 0;
+}
+#header .headerTop .headerTopMain .right nav button {
+  margin-top: 20px;
+  width: 90px;
+  height: 20px;
+  background-color: rgb(0, 0, 0);
+  border: none;
+  border-radius: 3px;
+  color: rgb(230, 228, 228);
+  font-size: 12px;
+  align-self: flex-start;
+  margin-top: 20px;
+  margin-left: 10px;
+}
+#header .headerTop .headerTopMain .right .themebtn {
+  align-self: center;
+}
+#header .headerLow .headerLowMain {
+  width: 100%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+#header .headerLow .headerLowMain .search {
+  line-height: 40px;
+}
+#header .headerLow .headerLowMain .search input {
+  box-sizing: border-box;
+  width: 490px;
+  height: 40px;
+  border: solid 2px rgb(230, 228, 228);
+  border-radius: 5px;
+  outline: none;
+}
+#header .headerLow .headerLowMain .search input::placeholder {
+  padding-left: 5px;
+}
+#header .headerLow .headerLowMain .search input:focus {
+  border-color: coral;
+}
+
+#homepage {
+  margin: auto;
+  justify-content: center;
+  margin-top: 20px;
+}
+#homepage .search-page {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+#homepage .search-page #search {
+  width: 200px;
+}
+#homepage .search-page .pagination {
+  height: 70px;
+  display: flex;
+  flex-direction: column;
+  justify-items: flex-end;
+}
+#homepage .search-page .pagination .orderBtns {
+  height: 22px;
+  align-self: flex-end;
+  margin-top: 15px;
+}
+#homepage .search-page .pagination .orderBtns > button {
+  height: 22px;
+  width: 100px;
+  font-size: 12px;
+  background-color: black;
+  border: none;
+  border-radius: 3px;
+  color: rgb(230, 228, 228);
+}
+#homepage .search-page .pagination .orderBtns > button:nth-child(2) {
+  margin-left: 10px;
+}
+#homepage .search-page .pagination .orderBtns > button:hover {
+  background-color: rgb(255, 115, 0);
+}
+#homepage .search-page .pagination .page {
+  align-self: flex-end;
+}
+#homepage .container {
+  margin: auto;
+  border: 1px solid rgb(230, 228, 228);
+  border-radius: 5px;
+  justify-content: center;
+}
+#homepage .container #item {
+  display: flex;
+  flex-direction: column;
+  justify-items: flex-start;
+  margin: 10px;
+  box-shadow: 2px 2px 2px 2px rgba(242, 181, 141, 0.2);
+  border-radius: 5px;
+}
+#homepage .container #item .bgPic {
+  width: 100%;
+  height: 200px;
+  border-radius: 5px;
+}
+#homepage .container #item .title {
+  text-align: left;
+  border-bottom: 1px solid rgb(230, 228, 228);
+  margin-bottom: 20px;
+}
+#homepage .container #item .title h5 {
+  margin-bottom: 8px;
+}
+#homepage .container #item .title .price {
+  font-size: 12px;
+  margin-bottom: 8px;
+}
+#homepage .container #item .title .material {
+  font-size: 12px;
+  color: grey;
+  margin-bottom: 20px;
+}
+#homepage .container #item #cartBtn {
+  margin-top: 10px;
+  width: 80px;
+  height: 22px;
+  background-color: black;
+  border: none;
+  border-radius: 3px;
+  color: rgb(230, 228, 228);
+  font-size: 12px;
+  align-self: flex-start;
+  transition: ease 0.2s;
+}
+#homepage .container #item #cartBtn:hover {
+  background-color: rgb(255, 115, 0);
+  color: white;
+}
+
+#details {
+  margin-left: 30px;
+  border: 1px solid rgb(230, 228, 228);
+  width: 50%;
+  margin: auto;
+  display: flex;
+  padding: 80px;
+  justify-content: space-between;
+}
+#details .left {
+  width: 50%;
+}
+#details .left .bottom {
+  display: flex;
+  justify-content: flex-start;
+}
+#details .left .bottom img {
+  margin: 0 10px;
+}
+#details .right {
+  width: 50%;
+}
+#details .right .title {
+  margin-bottom: 10px;
+}
+#details .right .price {
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid rgb(230, 228, 228);
+}
+#details .right .description {
+  color: rgb(111, 110, 110);
+  font-size: 14px;
+}
+#details .right .description p {
+  margin-bottom: 10px;
+}
+#details .right .description li {
+  margin-bottom: 5px;
+  margin-left: 10px;
+  list-style: outside;
+}
+#details .right #cartBtn {
+  margin-top: 20px;
+  width: 160px;
+  height: 28px;
+  background-color: black;
+  border: none;
+  border-radius: 3px;
+  color: rgb(230, 228, 228);
+  font-size: 12px;
+  align-self: flex-start;
+  margin-top: 40px;
+  margin-right: 15px;
+}
+#details .right #cartBtn:hover {
+  background-color: rgb(255, 115, 0);
+}
+
+#cart {
+  width: 60%;
+  border-collapse: collapse;
+  text-align: left;
+  margin: auto;
+  margin-bottom: 50px;
+}
+#cart .tableheader {
+  border-bottom: 1px solid rgb(230, 228, 228);
+  line-height: 30px;
+}
+#cart .tableheader tr {
+  border-bottom: 1px solid rgb(230, 228, 228);
+}
+#cart .tableheader tr th {
+  text-align: center;
+}
+#cart tbody {
+  text-align: center;
+}
+#cart tbody tr {
+  border-bottom: 1px solid rgb(230, 228, 228);
+}
+#cart tbody tr td {
+  width: 20%;
+}
+#cart tbody tr td:nth-child(2) {
+  height: 100px;
+  display: flex;
+  justify-content: center;
+}
+#cart tbody tr td:nth-child(2) img {
+  width: 50px;
+  align-self: center;
+}
+#cart tbody tr td:nth-child(5) {
+  text-align: center;
+}
+#cart tbody tr td:nth-child(5) button {
+  width: 15px;
+  height: 15px;
+  background-color: black;
+  border: none;
+  border-radius: 3px;
+  color: rgb(230, 228, 228);
+  font-size: 12px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+#cart tbody tr td:nth-child(5) button:hover {
+  background-color: rgb(255, 115, 0);
+  color: black;
+  transform: scaleX(1.2);
+  cursor: pointer;
+}
+#cart tbody tr td:last-child > button {
+  width: 50px;
+  height: 20px;
+  background-color: rgb(255, 115, 0);
+  color: black;
+  border: none;
+  border-radius: 3px;
+  font-size: 12px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+#cart tbody tr td:last-child > button:hover {
+  background-color: rgb(255, 115, 0);
+  background-color: rgb(255, 115, 0);
+  color: black;
+  transform: scaleX(1.1);
+  cursor: pointer;
+}
+#cart tfoot {
+  line-height: 60px;
+}
+#cart tfoot tr {
+  text-align: right;
+}
+#cart tfoot tr th {
+  text-align: left;
+}
+#cart tfoot tr:nth-child(2):last-child button {
+  width: 140px;
+  height: 28px;
+  color: black;
+  background-color: rgb(255, 115, 0);
+  border: none;
+  border-radius: 3px;
+  color: black;
+  font-size: 12px;
+}
+#cart tfoot tr:nth-child(2):last-child button:hover {
+  background-color: rgb(255, 115, 0);
+  color: black;
+  transform: scaleX(1.1);
+  cursor: pointer;
+}
+
+#formWrapper {
+  width: 340px;
+  text-align: center;
+  margin: auto;
+  margin-bottom: 100px;
+  border-radius: 5px;
+  padding: 50px;
+  box-shadow: 2px 2px 4px 4px rgba(195, 194, 194, 0.2);
+}
+#formWrapper div h2 {
+  margin-bottom: 40px;
+}
+#formWrapper form .reminder {
+  border: 1px solid green;
+  padding: 5px 20px;
+  background-color: rgb(223, 221, 221);
+  color: green;
+  margin-bottom: 10px;
+}
+#formWrapper form .error {
+  border: 1px solid red;
+  padding: 5px 20px;
+  background-color: rgb(223, 221, 221);
+  color: red;
+  margin-bottom: 10px;
+}
+#formWrapper form div input {
+  width: 280px;
+  height: 30px;
+  margin-bottom: 30px;
+}
+#formWrapper form div input:focus {
+  outline: none;
+  border: 2px solid coral;
+}
+#formWrapper form div input::placeholder {
+  padding-left: 5px;
+}
+#formWrapper form button {
+  width: 280px;
+  height: 30px;
+  background-color: black;
+  border: none;
+  color: white;
+  font-size: 18px;
+}
+#formWrapper form button:hover {
+  background-color: coral;
+  color: black;
+  transform: scaleX(1.02);
+  cursor: pointer;
+}
+#formWrapper form div p {
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+#formWrapper form div a {
+  margin-top: 20px;
+}
+
+#profile {
+  border: 1px solid red;
+  width: 40%;
+  margin: auto;
+  border: 1px solid rgb(231, 227, 227);
+  height: 400px;
+  padding-left: 20px;
+  padding-top: 20px;
+  border-radius: 10px;
+  margin-bottom: 150px;
+}
+#profile div {
+  height: 30px;
+  line-height: 30px;
+}
+#profile div img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+#profile div h2 {
+  margin-bottom: 25px;
+  text-decoration: underline;
+}
+#profile div div {
+  margin-bottom: 20px;
+  display: flex;
+}
+#profile div div a {
+  color: coral;
+  font-size: 16px;
+  line-height: 30px;
+}
+#profile div div p {
+  margin-left: 20px;
+}
+#profile button {
+  margin-top: 20px;
+  width: 120px;
+  height: 28px;
+  background-color: black;
+  border: none;
+  border-radius: 3px;
+  color: rgb(230, 228, 228);
+  font-size: 12px;
+  align-self: flex-start;
+  margin-top: 20px;
+  margin-right: 15px;
+}
+#profile button:hover {
+  background-color: coral;
+}
+
+#admin {
+  margin: auto;
+  font-size: 14px;
+  display: flex;
+  flex-direction: column;
+}
+#admin > button {
+  align-self: flex-end;
+  width: 240px;
+  height: 28px;
+  margin-right: 220px;
+  margin-bottom: 20px;
+  background-color: black;
+  border: none;
+  border-radius: 3px;
+  color: rgb(230, 228, 228);
+  font-size: 12px;
+}
+#admin > button:hover {
+  background-color: rgb(255, 115, 0);
+  color: black;
+  transform: scaleX(1.02);
+  cursor: pointer;
+}
+#admin .btn {
+  width: 80px;
+  height: 24px;
+  font-size: small;
+  background-color: black;
+  color: rgb(227, 224, 224);
+}
+#admin .btn:hover {
+  transform: scaleX(1.02);
+  cursor: pointer;
+}
+
+#createUser {
+  width: 40%;
+  margin: auto;
+  text-align: center;
+  padding: 70px 0;
+  border-radius: 5px;
+  margin-bottom: 100px;
+  box-shadow: 2px 2px 4px 4px rgba(195, 194, 194, 0.2);
+}
+#createUser div input {
+  width: 300px;
+  height: 34px;
+  margin-bottom: 30px;
+}
+#createUser div input:focus {
+  outline: none;
+  border: 2px solid coral;
+}
+#createUser div input::placeholder {
+  padding-left: 5px;
+}
+#createUser button {
+  width: 300px;
+  height: 34px;
+  background-color: black;
+  border: none;
+  border-radius: 3px;
+  color: rgb(230, 228, 228);
+  font-size: 12px;
+  transition: ease 0.2s;
+  font-size: 16px;
+}
+#createUser button:hover {
+  background-color: coral;
+  color: black;
+  transform: scaleX(1.02);
+  cursor: pointer;
+}
+
+#newProductForm {
+  width: 480px;
+  margin: auto;
+  text-align: center;
+  padding: 50px;
+  border-radius: 5px;
+  margin-bottom: 100px;
+  box-shadow: 2px 2px 4px 4px rgba(195, 194, 194, 0.2);
+}
+#newProductForm div {
+  display: flex;
+  justify-content: space-between;
+}
+#newProductForm div label {
+  line-height: 40px;
+}
+#newProductForm div input {
+  width: 300px;
+  height: 40px;
+  margin-bottom: 30px;
+}
+#newProductForm div input:focus {
+  outline: none;
+  border: 2px solid coral;
+}
+#newProductForm div input::placeholder {
+  padding-left: 5px;
+}
+#newProductForm button {
+  width: 300px;
+  height: 34px;
+  background-color: black;
+  border: none;
+  border-radius: 3px;
+  color: rgb(230, 228, 228);
+  font-size: 12px;
+  transition: ease 0.2s;
+  font-size: 16px;
+  margin-top: 20px;
+}
+#newProductForm button:hover {
+  background-color: coral;
+  color: black;
+  transform: scaleX(1.02);
+  cursor: pointer;
+}
+
+#updateProductForm {
+  width: 480px;
+  margin: auto;
+  text-align: center;
+  padding: 50px;
+  border-radius: 5px;
+  margin-bottom: 100px;
+  box-shadow: 2px 2px 4px 4px rgba(195, 194, 194, 0.2);
+}
+#updateProductForm div {
+  display: flex;
+  justify-content: space-between;
+}
+#updateProductForm div label {
+  line-height: 40px;
+}
+#updateProductForm div input {
+  width: 300px;
+  height: 40px;
+  margin-bottom: 30px;
+}
+#updateProductForm div input:focus {
+  outline: none;
+  border: 2px solid coral;
+}
+#updateProductForm div input::placeholder {
+  padding-left: 5px;
+}
+#updateProductForm button {
+  width: 300px;
+  height: 34px;
+  background-color: black;
+  border: none;
+  border-radius: 3px;
+  color: rgb(230, 228, 228);
+  font-size: 12px;
+  transition: ease 0.2s;
+  font-size: 16px;
+  margin-top: 20px;
+}
+#updateProductForm button:hover {
+  background-color: coral;
+  color: black;
+  transform: scaleX(1.02);
+  cursor: pointer;
+}
+
+#order {
+  padding: 30px;
+  width: 50%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 2px 2px 4px 4px rgba(195, 194, 194, 0.2);
+}
+#order .orderId {
+  align-self: flex-end;
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+}
+#order .orderId > h3 {
+  align-self: flex-end;
+  margin-bottom: 15px;
+}
+#order .orderId > p {
+  color: grey;
+  font-size: 14px;
+  margin-bottom: 10px;
+  align-self: flex-end;
+}
+#order .delivery {
+  margin-bottom: 50px;
+}
+#order .createAt {
+  width: 100%;
+}
+#order .ordertable tr {
+  border-bottom: 1px solid rgb(230, 228, 228);
+}
+#order .ordertable tr th {
+  text-align: center;
+  border-bottom: 1px solid orangered;
+  padding-bottom: 10px;
+}
+#order .ordertable tbody {
+  text-align: center;
+}
+#order .ordertable tbody tr td {
+  padding-top: 10px;
+}
+#order .ordertable tbody .btn {
+  width: 100px;
+  height: 34px;
+  background-color: black;
+  border: none;
+  border-radius: 3px;
+  color: rgb(230, 228, 228);
+  font-size: 12px;
+  transition: ease 0.2s;
+  font-size: 16px;
+  margin-top: 50px;
+}
+#order .ordertable tbody .btn:hover {
+  background-color: coral;
+  color: black;
+  transform: scaleX(1.02);
+  cursor: pointer;
+}
+#order .ordertable tfoot tr td:last-child {
+  padding-top: 20px;
+  padding-right: 30px;
+  font-weight: bold;
+}
+#order .orderBtn {
+  margin-top: 20px;
+  width: 160px;
+  height: 28px;
+  background-color: black;
+  border: none;
+  border-radius: 3px;
+  color: rgb(230, 228, 228);
+  font-size: 12px;
+  align-self: flex-start;
+  margin-top: 40px;
+  margin-right: 15px;
+}
+#order .orderBtn:hover {
+  background-color: rgb(255, 115, 0);
+}
+
+body .reminder {
+  border: 1px solid green;
+  padding: 5px 20px;
+  background-color: rgb(223, 221, 221);
+  color: green;
+  margin-bottom: 10px;
+}
+body .error {
+  border: 1px solid red;
+  padding: 5px 20px;
+  background-color: rgb(223, 221, 221);
+  color: red;
+  margin-bottom: 10px;
+}
+body .theme-btn {
+  margin-left: 140px;
+  width: 120px;
+  height: 24px;
+  border: none;
+  margin-top: 10px;
+  border-radius: 5px;
+  background-color: rgb(255, 115, 0);
+}
+body .light-theme {
+  background-color: #ffffff !important;
+  color: #333333 !important;
+}
+body .dark-theme {
+  background-color: #000000 !important;
+  color: #ffffff !important;
+}
+body .dark-theme a {
+  color: white;
+}
+body .dark-theme p {
+  color: white;
+}
+body .dark-theme button {
+  border-radius: 5px;
+  margin-right: 3px;
+  background-color: white;
+}
+body .dark-theme button:hover {
+  background-color: rgb(255, 115, 0);
+}
+body .dark-theme input {
+  outline: 1px solid white;
+  border-radius: 5px;
+}
+body .dark-theme #cartBtn {
+  background-color: rgb(255, 115, 0);
+}
+
+#footer {
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+#footer .grid-container {
+  width: 1200px;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-gap: 5px;
+  justify-content: center;
+  margin: 20px auto;
+}
+#footer .grid-container .grid-item {
+  background-color: #eaeaea;
+  padding: 10px;
+  text-align: left;
+}
+#footer .grid-container .grid-item li {
+  margin-bottom: 3px;
+}
+#footer .grid-container .grid-item li:nth-child(1) > p {
+  margin-bottom: 10px;
+}
+#footer > p {
+  font-size: 12px;
+  text-align: center;
+  margin-top: 30px;
+  color: #959595;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+html {
+  overflow: scroll;
+}
+
+address, em, i, cite, dfn, var {
+  font-style: normal;
+}
+
+code, kbd, pre, samp, tt {
+  font-family: "Courier New", Courier, monospace;
+}
+
+a {
+  color: #979595;
+  font-size: 12px;
+}
+
+a:hover {
+  color: coral !important;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/*# sourceMappingURL=styles.css.map */

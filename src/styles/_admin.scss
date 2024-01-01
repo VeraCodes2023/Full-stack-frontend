@@ -1,0 +1,39 @@
+#admin{
+    margin: auto;
+    font-size: 14px;
+    display: flex;
+    flex-direction: column;
+  >button{
+    align-self: flex-end;
+    width: 240px;
+    height: 28px;
+    margin-right: 220px;
+    margin-bottom: 20px;
+    background-color: black;
+    border: none;
+    border-radius: 3px;
+    color: rgb(230, 228, 228);
+    font-size: 12px;
+    // margin-bottom: 50px;
+    &:hover{
+      background-color:rgb(255, 115, 0);
+      color: black;
+      transform: scaleX(1.02);
+      cursor: pointer;
+  }
+  }
+
+  .btn {
+    width: 80px;
+    height: 24px;
+    font-size:small;
+    background-color: black;
+    color: rgb(227, 224, 224);
+    &:hover{
+      transform: scaleX(1.02);
+      cursor: pointer;
+  }
+  }
+    
+  
+}

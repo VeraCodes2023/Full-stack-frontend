@@ -1,0 +1,37 @@
+@use "./_header.scss" ;
+@use "./_main.scss";
+@use "./_footer.scss";
+
+*{
+    margin: 0;
+    padding: 0;
+    // list-style: none;
+    text-decoration: none;
+    font-family:Arial, Helvetica, sans-serif;
+}
+html{
+    overflow: scroll;
+}
+
+address,em,i,cite,dfn,var {
+    font-style: normal;
+}
+
+code,kbd,pre,samp,tt{font-family: 'Courier New', Courier, monospace;}
+
+a{
+    color: #979595;
+    font-size: 12px;
+  }
+  
+  a:hover{
+    color: coral !important;
+  }
+
+body{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  // position: relative;
+
+}
